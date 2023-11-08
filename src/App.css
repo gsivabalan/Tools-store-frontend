@@ -1,38 +1,84 @@
-.App {
-  text-align: center;
+*{
+  margin:0;
+  padding:0;
+  text-decoration: none;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container{
+  display:flex;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+main{
+  width: 100%;
+  padding-top: 80px;
 }
-
-.App-header {
-  background-color: #282c34;
+.sidebar{
+  background: #000;
+  color: #fff;
+  max-height: 100rem;
   min-height: 100vh;
+  width: 50px;
+  transition: all 0.5s;
+}
+.sidebar:hover{
+  background: #103a2a;
+  color: #ffffff;
+  width: 220px;
+}
+.top_section{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  align-items:center;
+  padding:20px 15px;
+}
+.logo{
+  font-size: 30px;
+}
+.bars{
+  display: flex;
+  font-size: 25px;
+  margin-left: 50px;
+}
+.link{
+  display: flex;
+  color: #ffffff;
+  padding: 10px 15px;
+  gap: 15px;
+  transition: all 0.5s;
+}
+.link:hover{
+  background:lightskyblue;
+  color: #000;
+  transition: all 0.5s;
+}
+
+.icon, .link_text{
+  font-size: 20px;
+}
+
+.headersection{
+  display: flex;
+  flex-direction: row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  position: fixed;
+  top:0%;
+  width:100cqmax;
+  background-color: #efab35;
+  font-variant: petite-caps;
+  font-size: xxx-large;
+  padding: 4px;
+  
 }
 
-.App-link {
-  color: #61dafb;
+.dashbord{
+  display: block;
+  text-align: center;
+  padding: 5px;
+  font-style: italic;
+  font-family: 'Segoe UI';
+  background-color: #f8f8f8;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.landingDash{
+  word-spacing: 1px;
+  padding: 4px;
+  font-size: large;
 }

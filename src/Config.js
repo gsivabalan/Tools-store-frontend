@@ -1,0 +1,1 @@
+export const backendUrl = 'https://inventorymanagementtool-backend.onrender.com';

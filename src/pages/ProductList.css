@@ -1,0 +1,92 @@
+src/components/ProductList.css
+
+.product-list-container {
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+  }
+ 
+  .product-table {
+    width: 95%;
+    margin-left: 20px;
+    padding: 20px;
+    border-collapse: collapse;
+    background-color: #fff;
+    border: 1px solid #5c3838;
+    border-radius: 5px;
+  }
+  
+  th {
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    text-align: left;
+    padding: 10px;
+  }
+  
+  th, td {
+    border: 1px solid #8d5f5f;
+    padding: 10px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dea9a9;
+  }
+  
+  td:hover {
+    background-color: #ab9e9e;
+  }
+  
+  /* Style links as buttons */
+  a.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  a.button:hover {
+    background-color: #0056b3;
+  }
+  
+  .headname{
+    padding: 15px;
+    font-size: 30px;
+display: flex;
+flex-direction: row;
+align-self: center;
+justify-content: center;
+font-family: sans-serif;
+  }
+
+  
+.search-box {
+  margin: 20px 0;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
